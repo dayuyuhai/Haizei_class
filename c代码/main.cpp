@@ -16,7 +16,7 @@ void output(int argc, char *argv[], char *env[]) {
 	}
 	for (int i = 0; env[i]; i++) {
 		if (strncmp(env[i], "USER=", 5) == 0) {
-			if (strncmp(env[i] + 5, "zyt", sizeof(env[i]) == 0)) {
+			if (strncmp(env[i] + 5, "zyt", sizeof(env[i])) == 0) {
 				printf("welcome meinv\n");
 			} else {
 				printf("get out!!!\n");
