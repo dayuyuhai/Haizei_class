@@ -1,0 +1,4 @@
+s.find("liuyuxin");                  //返回l的位置
+s.replace(pos, 8, "zhangyutong");  //被换的字符串有八位
+tolower(s[i]) 以及 toupper(s[i]) //转换大小写
+
