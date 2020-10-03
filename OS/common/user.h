@@ -43,6 +43,12 @@ struct ChatMsg {
     char msg[1024];
 };
 
+struct FileMsg {
+    char name[512];
+    long size;
+    char buff[4096];
+};
+
 void *thread_send(void *arg);
 void *thread_recv(void *arg);
 void deal_send_message(char *buff, struct ChatMsg *c_msg);

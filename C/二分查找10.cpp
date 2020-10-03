@@ -9,6 +9,7 @@
 #include<algorithm>
 using namespace std;
 
+// 111000
 int binary_search1(int *arr, int n) {
 	int head = -1, tail = n - 1, mid; //虚拟头
 	while (head < tail) {
@@ -19,6 +20,7 @@ int binary_search1(int *arr, int n) {
 	return head;
 }
 
+// 000111
 int binary_search2(int *arr, int n) {
 	int head = 0, tail = n, mid;
 	while (head < tail) {
