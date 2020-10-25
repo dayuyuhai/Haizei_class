@@ -100,7 +100,7 @@ int socket_connect(char *ip, int port) {
 
 int socket_create_udp(int port) {
     int sockfd;
-    if ((sockfd = socket(AF_INET, SOCK_DGRAM | NONBLOCK, 0)) < 0) {
+    if ((sockfd = socket(AF_INET, SOCK_DGRAM | FNONBLOCK, 0)) < 0) {
         return -1;
     }
     int val;
@@ -115,7 +115,7 @@ int socket_create_udp(int port) {
     if (bind(sockfd, (struct sockaddr *)&server, sizeof(server)) < 0) {
         return -1;
     }
-    return socket;
+    return sockfd;
 }
 
 int socket_udp() {

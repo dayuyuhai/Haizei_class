@@ -1,0 +1,10 @@
+{
+    "Master" : {
+        "MasterPort" : 8001,
+        "Desc" : "Master"
+    },
+    "Slave" : {
+        "SlavePort" : 8002,
+        "Desc" : "Slave"
+    }
+}

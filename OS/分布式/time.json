@@ -1,0 +1,15 @@
+{
+    "Slave" : {
+        "SlavePort" : 8002,
+        "Desc" : "Slave",
+        "Timer" : {
+            "Proc" : 5,
+            "Disk" : 60,
+            "Mem" : 10,
+            "Cpu" : 10,
+            "User" : 120,
+            "Sysinfo" : 30
+        }
+    }
+}
+
