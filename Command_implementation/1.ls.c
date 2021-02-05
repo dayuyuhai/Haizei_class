@@ -93,6 +93,7 @@ void do_ls(char *dir) {
         }
         if (l_flag == 1)   show_info(p->str, &st);
         else {
+            /*
             struct winsize size;  
             if (ioctl(STDOUT_FILENO, TIOCGWINSZ, &size) < 0) {
                 perror("ioctl TIOCGWINSZ error");
@@ -102,6 +103,7 @@ void do_ls(char *dir) {
                 printf("\n");
                 cnt = 0;
             }
+            */
             file_print(p->str, &st);
         }
         p = p->next;

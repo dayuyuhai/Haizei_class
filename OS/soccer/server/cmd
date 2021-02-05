@@ -1,0 +1,1 @@
+gcc ./server.c ../common/common.c ../common/ball_status.c ../common/show_data_stream.c ../common/server_re_draw.c ../common/server_exit.c ../common/game_ui.c ../common/heart_beat.c ../common/udp_epoll.c ../common/cJSON.c ../common/server_send_all.c -lpthread -lncurses -o server ../common/thread_pool.c ../common/sub_reactor.c -lm

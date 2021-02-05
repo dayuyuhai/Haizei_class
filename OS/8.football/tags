@@ -1,0 +1,451 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTION_CARRY	common/datatype.h	67;"	d
+ACTION_DFT	common/datatype.h	69;"	d
+ACTION_KICK	common/datatype.h	66;"	d
+ACTION_STOP	common/datatype.h	68;"	d
+Aspeed	common/datatype.h	/^struct Aspeed{$/;"	s
+BLACK	common/color.h	10;"	d
+BLINK	common/color.h	29;"	d
+BLUE	common/color.h	19;"	d
+BOLD	common/color.h	27;"	d
+BROWN	common/color.h	16;"	d
+BallStatus	common/datatype.h	/^struct BallStatus {$/;"	s
+Bpoint	common/datatype.h	/^struct Bpoint {$/;"	s
+CC	server/Makefile	/^CC=gcc$/;"	m
+CFLAGS	server/Makefile	/^CFLAGS=-g -Wall$/;"	m
+CJSON_CDECL	common/cJSON.h	55;"	d
+CJSON_CDECL	common/cJSON.h	71;"	d
+CJSON_EXPORT_SYMBOLS	common/cJSON.h	60;"	d
+CJSON_NESTING_LIMIT	common/cJSON.h	137;"	d
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemReferenceToObject(cJSON *object, const char *string, cJSON *item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemToArray(cJSON *array, cJSON *item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemToObject(cJSON *object, const char *string, cJSON *item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemToObjectCS(cJSON *object, const char *string, cJSON *item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_Compare(const cJSON * const a, const cJSON * const b, const cJSON_bool case_sensitive)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_HasObjectItem(const cJSON *object, const char *string)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_InsertItemInArray(cJSON *array, int which, cJSON *newitem)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsArray(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsBool(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsFalse(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsInvalid(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNull(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNumber(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsObject(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsRaw(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsString(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsTrue(const cJSON * const item)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_PrintPreallocated(cJSON *item, char *buffer, const int length, const cJSON_bool format)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemInArray(cJSON *array, int which, cJSON *newitem)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemInObject(cJSON *object, const char *string, cJSON *newitem)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemInObjectCaseSensitive(cJSON *object, const char *string, cJSON *newitem)$/;"	f
+CJSON_PUBLIC	common/cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemViaPointer(cJSON * const parent, cJSON * const item, cJSON * replacement)$/;"	f
+CJSON_PUBLIC	common/cJSON.h	64;"	d
+CJSON_PUBLIC	common/cJSON.h	66;"	d
+CJSON_PUBLIC	common/cJSON.h	68;"	d
+CJSON_PUBLIC	common/cJSON.h	75;"	d
+CJSON_PUBLIC	common/cJSON.h	77;"	d
+CJSON_STDCALL	common/cJSON.h	56;"	d
+CJSON_STDCALL	common/cJSON.h	72;"	d
+CJSON_VERSION_MAJOR	common/cJSON.h	82;"	d
+CJSON_VERSION_MINOR	common/cJSON.h	83;"	d
+CJSON_VERSION_PATCH	common/cJSON.h	84;"	d
+CLEAR	common/color.h	32;"	d
+CLRLINE	common/color.h	33;"	d
+CYAN	common/color.h	23;"	d
+Ctl	common/datatype.h	/^struct Ctl{$/;"	s
+DBG	common/head.h	58;"	d
+DBG	common/head.h	60;"	d
+FT_ACK	common/datatype.h	78;"	d
+FT_CTL	common/datatype.h	81;"	d
+FT_FIN	common/datatype.h	83;"	d
+FT_GAMEOVER	common/datatype.h	85;"	d
+FT_HEART	common/datatype.h	77;"	d
+FT_MAP	common/datatype.h	82;"	d
+FT_MSG	common/datatype.h	79;"	d
+FT_SCORE	common/datatype.h	84;"	d
+FT_WALL	common/datatype.h	80;"	d
+FootBallMsg	common/datatype.h	/^struct FootBallMsg {$/;"	s
+Football	client/client.c	/^WINDOW *Football, *Message, *Help, *Score, *Write, *Football_t;$/;"	v
+Football	server/server.c	/^WINDOW *Football, *Football_t, *Message, *Help, *Score, *Write;$/;"	v
+Football_t	client/client.c	/^WINDOW *Football, *Message, *Help, *Score, *Write, *Football_t;$/;"	v
+Football_t	server/server.c	/^WINDOW *Football, *Football_t, *Message, *Help, *Score, *Write;$/;"	v
+GRAY	common/color.h	25;"	d
+GREEN	common/color.h	14;"	d
+HIDE	common/color.h	31;"	d
+Help	client/client.c	/^WINDOW *Football, *Message, *Help, *Score, *Write, *Football_t;$/;"	v
+Help	server/server.c	/^WINDOW *Football, *Football_t, *Message, *Help, *Score, *Write;$/;"	v
+L_BLACK	common/color.h	11;"	d
+L_BLUE	common/color.h	20;"	d
+L_CYAN	common/color.h	24;"	d
+L_GREEN	common/color.h	15;"	d
+L_PINK	common/color.h	22;"	d
+L_RED	common/color.h	13;"	d
+L_YELLOW	common/color.h	18;"	d
+LogRequest	common/datatype.h	/^struct  LogRequest {$/;"	s
+LogResponse	common/datatype.h	/^struct LogResponse{$/;"	s
+MAINOBJ	server/Makefile	/^MAINOBJ =server.o sum.o$/;"	m
+MAX	common/heart_beat.c	13;"	d	file:
+MAX	common/server_exit.c	9;"	d	file:
+MAX	common/server_re_draw.c	12;"	d	file:
+MAX	common/sub_reactor.c	11;"	d	file:
+MAX	common/thread_pool.c	21;"	d	file:
+MAX	common/udp_epoll.c	17;"	d	file:
+MAX	server/server.c	32;"	d	file:
+MAXTASK	common/thread_pool.h	27;"	d
+MAX_MSG	common/datatype.h	86;"	d
+Map	common/datatype.h	/^struct Map {$/;"	s
+Message	client/client.c	/^WINDOW *Football, *Message, *Help, *Score, *Write, *Football_t;$/;"	v
+Message	server/server.c	/^WINDOW *Football, *Football_t, *Message, *Help, *Score, *Write;$/;"	v
+NAN	common/cJSON.c	82;"	d	file:
+NAN	common/cJSON.c	84;"	d	file:
+NONE	common/color.h	9;"	d
+NTHREAD	common/thread_pool.h	28;"	d
+PI	common/ball_status.c	14;"	d	file:
+PINK	common/color.h	21;"	d
+Point	common/datatype.h	/^struct Point {$/;"	s
+RED	common/color.h	12;"	d
+REVERSE	common/color.h	30;"	d
+Score	client/client.c	/^WINDOW *Football, *Message, *Help, *Score, *Write, *Football_t;$/;"	v
+Score	common/datatype.h	/^struct Score{$/;"	s
+Score	server/server.c	/^WINDOW *Football, *Football_t, *Message, *Help, *Score, *Write;$/;"	v
+Speed	common/datatype.h	/^struct Speed{$/;"	s
+UNDERLINE	common/color.h	28;"	d
+User	common/datatype.h	/^struct User {$/;"	s
+WHITE	common/color.h	26;"	d
+Write	client/client.c	/^WINDOW *Football, *Message, *Help, *Score, *Write, *Football_t;$/;"	v
+Write	server/server.c	/^WINDOW *Football, *Football_t, *Message, *Help, *Score, *Write;$/;"	v
+YELLOW	common/color.h	17;"	d
+_BALL_STATUS_H	common/ball_status.h	9;"	d
+_CLIENT_RECV_H	common/client_recv.h	9;"	d
+_COLOR_H_	common/color.h	8;"	d
+_COMMON_H	common/common.h	9;"	d
+_CRT_SECURE_NO_DEPRECATE	common/cJSON.c	28;"	d	file:
+_DATATYPE_H	common/datatype.h	9;"	d
+_GAME_UI_H	common/game_ui.h	9;"	d
+_HEAD_H	common/head.h	9;"	d
+_HEART_BEAT_H	common/heart_beat.h	9;"	d
+_SEND_CHAT_H	common/send_chat.h	9;"	d
+_SEND_CTL_H	common/send_ctl.h	9;"	d
+_SERVER_EXIT_H	common/server_exit.h	9;"	d
+_SERVER_RE_DRAW_H	common/server_re_draw.h	9;"	d
+_SERVER_SEND_ALL_H	common/server_send_all.h	9;"	d
+_SHOW_DATA_STREAM_H	common/show_data_stream.h	9;"	d
+_SHOW_STRENGTH_H	common/show_strength.h	9;"	d
+_SUB_REACTOR_H	common/sub_reactor.h	9;"	d
+_THREAD_POOL_H	common/thread_pool.h	9;"	d
+_UDP_EPOLL_H	common/udp_epoll.h	9;"	d
+__WINDOWS__	common/cJSON.h	32;"	d
+a	common/datatype.h	/^    struct Aspeed a;$/;"	m	struct:BallStatus	typeref:struct:BallStatus::Aspeed
+action	common/datatype.h	/^    int action;$/;"	m	struct:Ctl
+add_event_ptr	common/udp_epoll.c	/^void add_event_ptr(int epollfd, int fd, int events, struct User *user) {$/;"	f
+add_item_to_array	common/cJSON.c	/^static cJSON_bool add_item_to_array(cJSON *array, cJSON *item)$/;"	f	file:
+add_item_to_object	common/cJSON.c	/^static cJSON_bool add_item_to_object(cJSON * const object, const char * const string, cJSON * const item, const internal_hooks * const hooks, const cJSON_bool constant_key)$/;"	f	file:
+add_to_sub_reactor	common/udp_epoll.c	/^void add_to_sub_reactor(struct User *user) {$/;"	f
+allocate	common/cJSON.c	/^    void *(CJSON_CDECL *allocate)(size_t size);$/;"	m	struct:internal_hooks	file:
+array	common/cJSON.h	/^CJSON_PUBLIC(int) cJSON_GetArraySize(const cJSON *array);$/;"	v
+ball	client/client.c	/^struct Bpoint ball;$/;"	v	typeref:struct:Bpoint
+ball	server/server.c	/^struct Bpoint ball;$/;"	v	typeref:struct:Bpoint
+ball_status	client/client.c	/^struct BallStatus ball_status;$/;"	v	typeref:struct:BallStatus
+ball_status	server/server.c	/^struct BallStatus ball_status;$/;"	v	typeref:struct:BallStatus
+bepollfd	server/server.c	/^int repollfd, bepollfd;$/;"	v
+blue	common/datatype.h	/^    int blue;$/;"	m	struct:Score
+bmutex	server/server.c	/^pthread_mutex_t bmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+boolean	common/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateBool(cJSON_bool boolean);$/;"	v
+bteam	server/server.c	/^struct User* rteam, *bteam;$/;"	v	typeref:struct:
+buffer	common/cJSON.c	/^    unsigned char *buffer;$/;"	m	struct:__anon3	file:
+buffer_at_offset	common/cJSON.c	302;"	d	file:
+buffer_skip_whitespace	common/cJSON.c	/^static parse_buffer *buffer_skip_whitespace(parse_buffer * const buffer)$/;"	f	file:
+by_team	common/datatype.h	/^    int by_team;$/;"	m	struct:BallStatus
+cJSON	common/cJSON.h	/^typedef struct cJSON$/;"	s
+cJSON	common/cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddArrayToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddArrayToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddBoolToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddBoolToObject(cJSON * const object, const char * const name, const cJSON_bool boolean)$/;"	f
+cJSON_AddFalseToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddFalseToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddNullToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddNullToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddNumberToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddNumberToObject(cJSON * const object, const char * const name, const double number)$/;"	f
+cJSON_AddObjectToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddObjectToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_AddRawToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddRawToObject(cJSON * const object, const char * const name, const char * const raw)$/;"	f
+cJSON_AddStringToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddStringToObject(cJSON * const object, const char * const name, const char * const string)$/;"	f
+cJSON_AddTrueToObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddTrueToObject(cJSON * const object, const char * const name)$/;"	f
+cJSON_Array	common/cJSON.h	95;"	d
+cJSON_ArrayForEach	common/cJSON.h	283;"	d
+cJSON_CreateArray	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArray(void)$/;"	f
+cJSON_CreateArrayReference	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArrayReference(const cJSON *child) {$/;"	f
+cJSON_CreateBool	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateBool(cJSON_bool boolean)$/;"	f
+cJSON_CreateDoubleArray	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateDoubleArray(const double *numbers, int count)$/;"	f
+cJSON_CreateFalse	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateFalse(void)$/;"	f
+cJSON_CreateFloatArray	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateFloatArray(const float *numbers, int count)$/;"	f
+cJSON_CreateIntArray	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateIntArray(const int *numbers, int count)$/;"	f
+cJSON_CreateNull	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateNull(void)$/;"	f
+cJSON_CreateNumber	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateNumber(double num)$/;"	f
+cJSON_CreateObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObject(void)$/;"	f
+cJSON_CreateObjectReference	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObjectReference(const cJSON *child)$/;"	f
+cJSON_CreateRaw	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateRaw(const char *raw)$/;"	f
+cJSON_CreateString	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateString(const char *string)$/;"	f
+cJSON_CreateStringArray	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateStringArray(const char *const *strings, int count)$/;"	f
+cJSON_CreateStringReference	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateStringReference(const char *string)$/;"	f
+cJSON_CreateTrue	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateTrue(void)$/;"	f
+cJSON_Delete	common/cJSON.c	/^CJSON_PUBLIC(void) cJSON_Delete(cJSON *item)$/;"	f
+cJSON_DeleteItemFromArray	common/cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromArray(cJSON *array, int which)$/;"	f
+cJSON_DeleteItemFromObject	common/cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromObject(cJSON *object, const char *string)$/;"	f
+cJSON_DeleteItemFromObjectCaseSensitive	common/cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromObjectCaseSensitive(cJSON *object, const char *string)$/;"	f
+cJSON_DetachItemFromArray	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromArray(cJSON *array, int which)$/;"	f
+cJSON_DetachItemFromObject	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromObject(cJSON *object, const char *string)$/;"	f
+cJSON_DetachItemFromObjectCaseSensitive	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromObjectCaseSensitive(cJSON *object, const char *string)$/;"	f
+cJSON_DetachItemViaPointer	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemViaPointer(cJSON *parent, cJSON * const item)$/;"	f
+cJSON_Duplicate	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_Duplicate(const cJSON *item, cJSON_bool recurse)$/;"	f
+cJSON_False	common/cJSON.h	90;"	d
+cJSON_GetArrayItem	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetArrayItem(const cJSON *array, int index)$/;"	f
+cJSON_GetArraySize	common/cJSON.c	/^CJSON_PUBLIC(int) cJSON_GetArraySize(const cJSON *array)$/;"	f
+cJSON_GetErrorPtr	common/cJSON.c	/^CJSON_PUBLIC(const char *) cJSON_GetErrorPtr(void)$/;"	f
+cJSON_GetNumberValue	common/cJSON.c	/^CJSON_PUBLIC(double) cJSON_GetNumberValue(const cJSON * const item) $/;"	f
+cJSON_GetObjectItem	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetObjectItem(const cJSON * const object, const char * const string)$/;"	f
+cJSON_GetObjectItemCaseSensitive	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetObjectItemCaseSensitive(const cJSON * const object, const char * const string)$/;"	f
+cJSON_GetStringValue	common/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_GetStringValue(const cJSON * const item) $/;"	f
+cJSON_Hooks	common/cJSON.h	/^typedef struct cJSON_Hooks$/;"	s
+cJSON_Hooks	common/cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	common/cJSON.c	/^CJSON_PUBLIC(void) cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_Invalid	common/cJSON.h	89;"	d
+cJSON_IsReference	common/cJSON.h	99;"	d
+cJSON_Minify	common/cJSON.c	/^CJSON_PUBLIC(void) cJSON_Minify(char *json)$/;"	f
+cJSON_NULL	common/cJSON.h	92;"	d
+cJSON_New_Item	common/cJSON.c	/^static cJSON *cJSON_New_Item(const internal_hooks * const hooks)$/;"	f	file:
+cJSON_Number	common/cJSON.h	93;"	d
+cJSON_Object	common/cJSON.h	96;"	d
+cJSON_Parse	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_Parse(const char *value)$/;"	f
+cJSON_ParseWithLength	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_ParseWithLength(const char *value, size_t buffer_length)$/;"	f
+cJSON_ParseWithLengthOpts	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_ParseWithLengthOpts(const char *value, size_t buffer_length, const char **return_parse_end, cJSON_bool require_null_terminated)$/;"	f
+cJSON_ParseWithOpts	common/cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_ParseWithOpts(const char *value, const char **return_parse_end, cJSON_bool require_null_terminated)$/;"	f
+cJSON_Print	common/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_Print(const cJSON *item)$/;"	f
+cJSON_PrintBuffered	common/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_PrintBuffered(const cJSON *item, int prebuffer, cJSON_bool fmt)$/;"	f
+cJSON_PrintUnformatted	common/cJSON.c	/^CJSON_PUBLIC(char *) cJSON_PrintUnformatted(const cJSON *item)$/;"	f
+cJSON_Raw	common/cJSON.h	97;"	d
+cJSON_SetIntValue	common/cJSON.h	275;"	d
+cJSON_SetNumberHelper	common/cJSON.c	/^CJSON_PUBLIC(double) cJSON_SetNumberHelper(cJSON *object, double number)$/;"	f
+cJSON_SetNumberValue	common/cJSON.h	278;"	d
+cJSON_SetValuestring	common/cJSON.c	/^CJSON_PUBLIC(char*) cJSON_SetValuestring(cJSON *object, const char *valuestring)$/;"	f
+cJSON_String	common/cJSON.h	94;"	d
+cJSON_StringIsConst	common/cJSON.h	100;"	d
+cJSON_True	common/cJSON.h	91;"	d
+cJSON_Version	common/cJSON.c	/^CJSON_PUBLIC(const char*) cJSON_Version(void)$/;"	f
+cJSON__h	common/cJSON.h	24;"	d
+cJSON_bool	common/cJSON.h	/^typedef int cJSON_bool;$/;"	t
+cJSON_free	common/cJSON.c	/^CJSON_PUBLIC(void) cJSON_free(void *object)$/;"	f
+cJSON_malloc	common/cJSON.c	/^CJSON_PUBLIC(void *) cJSON_malloc(size_t size)$/;"	f
+cJSON_strdup	common/cJSON.c	/^static unsigned char* cJSON_strdup(const unsigned char* string, const internal_hooks * const hooks)$/;"	f	file:
+can_access	common/ball_status.c	/^int can_access(struct Point *loc) {$/;"	f
+can_access_at_index	common/cJSON.c	299;"	d	file:
+can_kick	common/ball_status.c	/^int can_kick(struct Point *loc, int strength){$/;"	f
+can_read	common/cJSON.c	297;"	d	file:
+cannot_access_at_index	common/cJSON.c	300;"	d	file:
+case_insensitive_strcmp	common/cJSON.c	/^static int case_insensitive_strcmp(const unsigned char *string1, const unsigned char *string2)$/;"	f	file:
+cast_away_const	common/cJSON.c	/^static void* cast_away_const(const void* string)$/;"	f	file:
+chat_msg	client/client.c	/^struct FootBallMsg chat_msg;$/;"	v	typeref:struct:FootBallMsg
+check_online	common/udp_epoll.c	/^int check_online(struct LogRequest *request){$/;"	f
+child	common/cJSON.h	/^    struct cJSON *child;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+child	common/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArrayReference(const cJSON *child);$/;"	v
+child	common/cJSON.h	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObjectReference(const cJSON *child);$/;"	v
+cjson_min	common/cJSON.c	1183;"	d	file:
+client_recv	common/client_recv.c	/^void *client_recv(void *arg) {$/;"	f
+compare_double	common/cJSON.c	/^static cJSON_bool compare_double(double a, double b)$/;"	f	file:
+cond	common/thread_pool.h	/^	pthread_cond_t cond;$/;"	m	struct:task_queue
+conf	client/client.c	/^char *conf = ".\/football.conf";$/;"	v
+conf	server/server.c	/^char *conf = ".\/football.conf";$/;"	v
+conf_ans	common/common.c	/^char conf_ans[512];$/;"	v
+content	common/cJSON.c	/^    const unsigned char *content;$/;"	m	struct:__anon2	file:
+court	client/client.c	/^struct Map court;$/;"	v	typeref:struct:Map
+court	server/server.c	/^struct Map court;$/;"	v	typeref:struct:Map
+create_newwin	common/game_ui.c	/^WINDOW *create_newwin(int width, int height, int startx, int starty) {$/;"	f
+create_reference	common/cJSON.c	/^static cJSON *create_reference(const cJSON *item, const internal_hooks * const hooks)$/;"	f	file:
+ctl	common/datatype.h	/^    struct Ctl ctl;$/;"	m	struct:FootBallMsg	typeref:struct:FootBallMsg::Ctl
+ctl_msg	client/client.c	/^struct FootBallMsg ctl_msg;$/;"	v	typeref:struct:FootBallMsg
+data_stream	client/client.c	/^char data_stream[20];$/;"	v
+data_stream	server/server.c	/^char data_stream[20] = {0};$/;"	v
+deallocate	common/cJSON.c	/^    void (CJSON_CDECL *deallocate)(void *pointer);$/;"	m	struct:internal_hooks	file:
+del_event	common/udp_epoll.c	/^void del_event(int epollfd, int fd) {$/;"	f
+depth	common/cJSON.c	/^    size_t depth; \/* How deeply nested (in arrays\/objects) is the input at the current offset. *\/$/;"	m	struct:__anon2	file:
+depth	common/cJSON.c	/^    size_t depth; \/* current nesting depth (for formatted printing) *\/$/;"	m	struct:__anon3	file:
+destroy_win	common/game_ui.c	/^void destroy_win(WINDOW *win) {$/;"	f
+dirx	common/datatype.h	/^    int dirx;$/;"	m	struct:Ctl
+diry	common/datatype.h	/^    int diry;$/;"	m	struct:Ctl
+do_work	common/thread_pool.c	/^void do_work(struct User *user) {$/;"	f
+ensure	common/cJSON.c	/^static unsigned char* ensure(printbuffer * const p, size_t needed)$/;"	f	file:
+epollfd	common/thread_pool.h	/^	int epollfd;$/;"	m	struct:task_queue
+error	common/cJSON.c	/^} error;$/;"	t	typeref:struct:__anon1	file:
+false	common/cJSON.c	68;"	d	file:
+false	common/cJSON.c	70;"	d	file:
+fd	common/datatype.h	/^    int fd; \/\/该玩家对应的连接$/;"	m	struct:User
+find_sub	common/udp_epoll.c	/^int find_sub(struct User *team) {$/;"	f
+flag	common/datatype.h	/^    int flag; \/\/未响应次数$/;"	m	struct:User
+format	common/cJSON.c	/^    cJSON_bool format; \/* is this print a formatted print *\/$/;"	m	struct:__anon3	file:
+free_fn	common/cJSON.h	/^      void (CJSON_CDECL *free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+gate_height	common/datatype.h	/^    int gate_height;$/;"	m	struct:Map
+gate_width	common/datatype.h	/^    int gate_width;$/;"	m	struct:Map
+get_array_item	common/cJSON.c	/^static cJSON* get_array_item(const cJSON *array, size_t index)$/;"	f	file:
+get_conf_value	common/common.c	/^char *get_conf_value(const char *path, const char *key) {$/;"	f
+get_decimal_point	common/cJSON.c	/^static unsigned char get_decimal_point(void)$/;"	f	file:
+get_object_item	common/cJSON.c	/^static cJSON *get_object_item(const cJSON * const object, const char * const name, const cJSON_bool case_sensitive)$/;"	f	file:
+global_error	common/cJSON.c	/^static error global_error = { NULL, 0 };$/;"	v	file:
+global_hooks	common/cJSON.c	/^static internal_hooks global_hooks = { internal_malloc, internal_free, internal_realloc };$/;"	v	file:
+gotoxy	common/game_ui.c	/^void gotoxy(int x, int y) {$/;"	f
+gotoxy_putc	common/game_ui.c	/^void gotoxy_putc(int x, int y, int c) {$/;"	f
+gotoxy_puts	common/game_ui.c	/^void gotoxy_puts(int x, int y, char* s) {$/;"	f
+head	common/thread_pool.h	/^	int head;$/;"	m	struct:task_queue
+heart_beat	common/heart_beat.c	/^void *heart_beat(void *arg) {$/;"	f
+heart_beat_team	common/heart_beat.c	/^void heart_beat_team(struct User *team) {$/;"	f
+height	common/datatype.h	/^    int height;$/;"	m	struct:Map
+hooks	common/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon2	file:
+hooks	common/cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon3	file:
+hooks	common/cJSON.h	/^CJSON_PUBLIC(void) cJSON_InitHooks(cJSON_Hooks* hooks);$/;"	v
+initfootball	common/game_ui.c	/^void initfootball() {$/;"	f
+internal_free	common/cJSON.c	/^static void CJSON_CDECL internal_free(void *pointer)$/;"	f	file:
+internal_free	common/cJSON.c	179;"	d	file:
+internal_hooks	common/cJSON.c	/^typedef struct internal_hooks$/;"	s	file:
+internal_hooks	common/cJSON.c	/^} internal_hooks;$/;"	t	typeref:struct:internal_hooks	file:
+internal_malloc	common/cJSON.c	/^static void * CJSON_CDECL internal_malloc(size_t size)$/;"	f	file:
+internal_malloc	common/cJSON.c	178;"	d	file:
+internal_realloc	common/cJSON.c	/^static void * CJSON_CDECL internal_realloc(void *pointer, size_t size)$/;"	f	file:
+internal_realloc	common/cJSON.c	180;"	d	file:
+isinf	common/cJSON.c	74;"	d	file:
+isnan	common/cJSON.c	77;"	d	file:
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsArray(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsBool(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsFalse(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsInvalid(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNull(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNumber(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsObject(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsRaw(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsString(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsTrue(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_GetStringValue(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_Print(const cJSON *item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(char *) cJSON_PrintUnformatted(const cJSON *item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(double) cJSON_GetNumberValue(const cJSON * const item);$/;"	v
+item	common/cJSON.h	/^CJSON_PUBLIC(void) cJSON_Delete(cJSON *item);$/;"	v
+json	common/cJSON.c	/^    const unsigned char *json;$/;"	m	struct:__anon1	file:
+length	common/cJSON.c	/^    size_t length;$/;"	m	struct:__anon2	file:
+length	common/cJSON.c	/^    size_t length;$/;"	m	struct:__anon3	file:
+loc	common/datatype.h	/^    struct Point loc;$/;"	m	struct:User	typeref:struct:User::Point
+logout	client/client.c	/^void logout(int signum) {$/;"	f
+main	client/client.c	/^int main(int argc, char **argv) {$/;"	f
+main	server/server.c	/^int main(int argc, char **argv) {$/;"	f
+make_block	common/common.c	/^int make_block(int fd) {$/;"	f
+make_non_block	common/common.c	/^int make_non_block(int fd) {$/;"	f
+malloc_fn	common/cJSON.h	/^      void *(CJSON_CDECL *malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+message_num	client/client.c	/^int message_num = 0;$/;"	v
+message_num	server/server.c	/^int port = 0, message_num = 0; \/\/服务端等待客户接入的端口，设置为全局$/;"	v
+minify_string	common/cJSON.c	/^static void minify_string(char **input, char **output) {$/;"	f	file:
+msg	common/datatype.h	/^    char msg[512];$/;"	m	struct:LogRequest
+msg	common/datatype.h	/^    char msg[512];$/;"	m	struct:LogResponse
+msg	common/datatype.h	/^    char msg[MAX_MSG];$/;"	m	struct:FootBallMsg
+mutex	common/thread_pool.h	/^	pthread_mutex_t mutex;$/;"	m	struct:task_queue
+name	common/datatype.h	/^    char name[20];$/;"	m	struct:BallStatus
+name	common/datatype.h	/^    char name[20];$/;"	m	struct:FootBallMsg
+name	common/datatype.h	/^    char name[20];$/;"	m	struct:LogRequest
+name	common/datatype.h	/^    char name[20];$/;"	m	struct:User
+next	common/cJSON.h	/^    struct cJSON *next;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+noalloc	common/cJSON.c	/^    cJSON_bool noalloc;$/;"	m	struct:__anon3	file:
+offset	common/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon2	file:
+offset	common/cJSON.c	/^    size_t offset;$/;"	m	struct:__anon3	file:
+online	common/datatype.h	/^    int online;\/\/ 1 在线 0 不在线$/;"	m	struct:User
+parse_array	common/cJSON.c	/^static cJSON_bool parse_array(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_buffer	common/cJSON.c	/^} parse_buffer;$/;"	t	typeref:struct:__anon2	file:
+parse_hex4	common/cJSON.c	/^static unsigned parse_hex4(const unsigned char * const input)$/;"	f	file:
+parse_number	common/cJSON.c	/^static cJSON_bool parse_number(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_object	common/cJSON.c	/^static cJSON_bool parse_object(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_string	common/cJSON.c	/^static cJSON_bool parse_string(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+parse_value	common/cJSON.c	/^static cJSON_bool parse_value(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	file:
+port	server/server.c	/^int port = 0, message_num = 0; \/\/服务端等待客户接入的端口，设置为全局$/;"	v
+position	common/cJSON.c	/^    size_t position;$/;"	m	struct:__anon1	file:
+prev	common/cJSON.h	/^    struct cJSON *prev;$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+print	common/cJSON.c	/^static unsigned char *print(const cJSON * const item, cJSON_bool format, const internal_hooks * const hooks)$/;"	f	file:
+print_array	common/cJSON.c	/^static cJSON_bool print_array(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+print_number	common/cJSON.c	/^static cJSON_bool print_number(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+print_object	common/cJSON.c	/^static cJSON_bool print_object(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+print_string	common/cJSON.c	/^static cJSON_bool print_string(const cJSON * const item, printbuffer * const p)$/;"	f	file:
+print_string_ptr	common/cJSON.c	/^static cJSON_bool print_string_ptr(const unsigned char * const input, printbuffer * const output_buffer)$/;"	f	file:
+print_value	common/cJSON.c	/^static cJSON_bool print_value(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	file:
+printbuffer	common/cJSON.c	/^} printbuffer;$/;"	t	typeref:struct:__anon3	file:
+re_drew	common/server_re_draw.c	/^void re_drew(){$/;"	f
+re_drew_ball	common/server_re_draw.c	/^void re_drew_ball() {$/;"	f
+re_drew_gate	common/server_re_draw.c	/^void re_drew_gate() {$/;"	f
+re_drew_player	common/server_re_draw.c	/^void  re_drew_player(int team, char *name, struct Point *loc) {$/;"	f
+re_drew_team	common/server_re_draw.c	/^void re_drew_team(struct User *team) {$/;"	f
+reallocate	common/cJSON.c	/^    void *(CJSON_CDECL *reallocate)(void *pointer, size_t size);$/;"	m	struct:internal_hooks	file:
+red	common/datatype.h	/^    int red;$/;"	m	struct:Score
+replace_item_in_object	common/cJSON.c	/^static cJSON_bool replace_item_in_object(cJSON *object, const char *string, cJSON *replacement, cJSON_bool case_sensitive)$/;"	f	file:
+repollfd	server/server.c	/^int repollfd, bepollfd;$/;"	v
+rmutex	server/server.c	/^pthread_mutex_t rmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+rteam	server/server.c	/^struct User* rteam, *bteam;$/;"	v	typeref:struct:User
+score	server/server.c	/^struct Score score;$/;"	v	typeref:struct:Score
+send_all	common/server_send_all.c	/^void send_all(struct FootBallMsg *msg) {$/;"	f
+send_all	common/thread_pool.c	/^void send_all(struct FootBallMsg *msg) {$/;"	f
+send_chat	common/send_chat.c	/^void send_chat() {$/;"	f
+send_ctl	common/send_ctl.c	/^void send_ctl() {$/;"	f
+send_team	common/server_send_all.c	/^void send_team(struct User *team, struct FootBallMsg *msg){$/;"	f
+send_to	common/thread_pool.c	/^void send_to(struct FootBallMsg *msg) {$/;"	f
+server_exit	common/server_exit.c	/^void server_exit(int signum) {$/;"	f
+server_ip	client/client.c	/^char server_ip[20] = {0};$/;"	v
+server_port	client/client.c	/^int server_port = 0;$/;"	v
+show_data_stream	common/show_data_stream.c	/^void show_data_stream(int type) {$/;"	f
+show_name	client/client.c	/^int show_name = 0;$/;"	v
+show_strength	common/show_strength.c	/^void show_strength() {$/;"	f
+size	common/cJSON.h	/^CJSON_PUBLIC(void *) cJSON_malloc(size_t size);$/;"	v
+size	common/datatype.h	/^    int size;$/;"	m	struct:FootBallMsg
+skip_multiline_comment	common/cJSON.c	/^static void skip_multiline_comment(char **input)$/;"	f	file:
+skip_oneline_comment	common/cJSON.c	/^static void skip_oneline_comment(char **input)$/;"	f	file:
+skip_utf8_bom	common/cJSON.c	/^static parse_buffer *skip_utf8_bom(parse_buffer * const buffer)$/;"	f	file:
+socket_connect	common/common.c	/^int socket_connect(char *ip, int port) {$/;"	f
+socket_create	common/common.c	/^int socket_create(int port) {$/;"	f
+socket_create_udp	common/common.c	/^int socket_create_udp(int port) {$/;"	f
+socket_udp	common/common.c	/^int socket_udp() {$/;"	f
+sockfd	client/client.c	/^int sockfd = -1;$/;"	v
+start	common/datatype.h	/^    struct Point start;$/;"	m	struct:Map	typeref:struct:Map::Point
+static_strlen	common/cJSON.c	184;"	d	file:
+strength	common/datatype.h	/^    int strength;$/;"	m	struct:Ctl
+string	common/cJSON.h	/^    char *string;$/;"	m	struct:cJSON
+sub_reactor	common/sub_reactor.c	/^void *sub_reactor(void *arg){$/;"	f
+suffix_object	common/cJSON.c	/^static void suffix_object(cJSON *prev, cJSON *item)$/;"	f	file:
+sum	common/thread_pool.h	/^	int sum;$/;"	m	struct:task_queue
+tail	common/thread_pool.h	/^	int tail;$/;"	m	struct:task_queue
+task_queue	common/thread_pool.h	/^struct task_queue{$/;"	s
+task_queue_init	common/thread_pool.c	/^void task_queue_init(struct task_queue *taskQueue, int sum, int epollfd) {$/;"	f
+task_queue_pop	common/thread_pool.c	/^struct User *task_queue_pop(struct task_queue *taskQueue) {$/;"	f
+task_queue_push	common/thread_pool.c	/^void task_queue_push(struct task_queue *taskQueue, struct User *user) {$/;"	f
+team	client/client.c	/^int team = -1;$/;"	v
+team	common/datatype.h	/^    int team; \/\/ 0 RED  1 BLUE$/;"	m	struct:User
+team	common/datatype.h	/^    int team;$/;"	m	struct:FootBallMsg
+team	common/datatype.h	/^    int team;$/;"	m	struct:LogRequest
+team	common/thread_pool.h	/^	struct User **team;$/;"	m	struct:task_queue	typeref:struct:task_queue::User
+thread_run	common/thread_pool.c	/^void *thread_run(void *arg) {$/;"	f
+true	common/cJSON.c	63;"	d	file:
+true	common/cJSON.c	65;"	d	file:
+type	common/cJSON.h	/^    int type;$/;"	m	struct:cJSON
+type	common/datatype.h	/^    int type; \/\/ 0 OK 1 NO$/;"	m	struct:LogResponse
+type	common/datatype.h	/^    int type;$/;"	m	struct:FootBallMsg
+udp_accept	common/udp_epoll.c	/^int udp_accept(int fd, struct User *user) {$/;"	f
+udp_connect	common/udp_epoll.c	/^int udp_connect(struct sockaddr_in *client){$/;"	f
+update_offset	common/cJSON.c	/^static void update_offset(printbuffer * const buffer)$/;"	f	file:
+utf16_literal_to_utf8	common/cJSON.c	/^static unsigned char utf16_literal_to_utf8(const unsigned char * const input_pointer, const unsigned char * const input_end, unsigned char **output_pointer)$/;"	f	file:
+v	common/datatype.h	/^    struct Speed v;$/;"	m	struct:BallStatus	typeref:struct:BallStatus::Speed
+valuedouble	common/cJSON.h	/^    double valuedouble;$/;"	m	struct:cJSON
+valueint	common/cJSON.h	/^    int valueint;$/;"	m	struct:cJSON
+valuestring	common/cJSON.h	/^    char *valuestring;$/;"	m	struct:cJSON
+w_gotoxy_putc	common/game_ui.c	/^void w_gotoxy_putc(WINDOW *win, int x, int y, int c) {$/;"	f
+w_gotoxy_puts	common/game_ui.c	/^void w_gotoxy_puts(WINDOW *win, int x, int y, char *s) {$/;"	f
+width	common/datatype.h	/^    int width;$/;"	m	struct:Map
+x	common/datatype.h	/^    double x;$/;"	m	struct:Aspeed
+x	common/datatype.h	/^    double x;$/;"	m	struct:Bpoint
+x	common/datatype.h	/^    double x;$/;"	m	struct:Speed
+x	common/datatype.h	/^    int x;$/;"	m	struct:Point
+y	common/datatype.h	/^    double y;$/;"	m	struct:Aspeed
+y	common/datatype.h	/^    double y;$/;"	m	struct:Bpoint
+y	common/datatype.h	/^    double y;$/;"	m	struct:Speed
+y	common/datatype.h	/^    int y;$/;"	m	struct:Point

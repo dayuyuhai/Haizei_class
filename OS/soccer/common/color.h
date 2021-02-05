@@ -17,10 +17,11 @@
 #define L_GREEN "\e[1;32m" 
 #define BROWN   "\e[0;33m" 
 #define YELLOW  "\e[1;33m" 
+#define L_YELLOW  "\e[0;33m" 
 #define BLUE    "\e[0;34m" 
 #define L_BLUE  "\e[1;34m" 
-#define PURPLE  "\e[0;35m" 
-#define L_PURPLE  "\e[1;35m" 
+#define PINK  "\e[0;35m" 
+#define L_PINK  "\e[1;35m" 
 #define CYAN    "\e[0;36m"        //青色
 #define L_CYAN  "\e[1;36m" 
 #define GRAY    "\e[0;37m" 

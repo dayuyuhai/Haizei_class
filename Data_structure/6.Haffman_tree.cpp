@@ -57,20 +57,7 @@ Haffman_Tree *getNewTree(int n) {
 }
 
 void insertOnce(Node **arr, int n) {
-	for (int j = n; j >= 1; j--) {
-		if (arr[j]->p > arr[j - 1]->p) {
-			swap(arr[j], arr[j - 1]);
-			continue;
-		}
-		break;
-	}
-	return ;
-}
-
-int extract_Codes(Node *root, Code *arr, int k, int l, char *buff) {
-	buff[l] = 0;
-	if (root->next[0] == NULL && root->next[1] == NULL) {
-		arr[k].ch = root->ch;
+    for (int j = n; j >= 1; j--) {[<64;59;8M:];
 		arr[k].str = strdup(buff);
 		return 1;
 	}

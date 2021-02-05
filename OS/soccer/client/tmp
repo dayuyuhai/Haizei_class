@@ -1,0 +1,1 @@
+gcc ../common/server_re_draw.c ../common/show_strength.c ../common/send_ctl.c ../common/send_chat.c ../common/game_ui.c ../common/client_recv.c client.c ../common/common.c ../common/ball_status.c ../common/server_send_all.c -o client -lpthread -lncurses -lm 
