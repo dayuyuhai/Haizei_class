@@ -9,9 +9,11 @@
 using namespace std;
 
 #define KEY(n) (n ? n->key : 0)
-#define SIZE(n) (n ? n->size : 0)
+#define MAX(a, b) (a > b ? a : b) 
+#define SIZE(n) (n ? n->size : 0)   // 此处的size代表height
 #define L(n) (n ? n->lchild : NULL)
 #define R(n) (n ? n->rchild : NULL)
+
 
 typedef struct Node {
     int key, size;
@@ -27,7 +29,7 @@ Node *getNewNode(int key) {
 }
 
 void Update(Node *root) {
-    root->size = SIZE(L(root)) + SIZE(R(root)) + 1;
+    root->size = MAX(SIZE(L(root)), SIZE(R(root))) + 1;
 }
 
 Node *pre(Node *root) {

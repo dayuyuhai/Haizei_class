@@ -6,10 +6,20 @@
  ************************************************************************/
 
 #include<stdio.h>
-#include<test/test.h>
+#include<ztest.h>
+#include<linknode.h>
 
 int add(int a, int b) {
 	return a + b;
+}
+
+TEST(testFunc, add) {
+	EXPECT_EQ(add(3, 5), 8);
+	EXPECT_NE(add(3, 5), 9);
+	EXPECT_LT(add(6, 7), 13);
+	EXPECT_GT(add(5, 5), 6);
+	EXPECT_LE(add(4, 3), 7);
+	EXPECT_GT(add(1, 2), 3);
 }
 
 TEST(testFunc, add2) {
